@@ -79,6 +79,9 @@ public class FootprintController {
     @PostMapping("/footprints")
     public Object add(Integer userId, @RequestBody FootPrintsItemVo footPrintVo)
     {
+        /* 当 userId 不等于 footPrintVo 中的userId的时候也可以插入 ？*/
+        /* 当相同用户相同商品的浏览足迹是覆盖还是两个同时保留 ？ */
+        /* 当用户的goodsId为空的时候也可以插入 ？ */
         if(userId==null)
         {
             return ResponseUtil.fail();
