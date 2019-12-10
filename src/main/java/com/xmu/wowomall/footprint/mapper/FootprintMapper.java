@@ -4,6 +4,7 @@ import com.xmu.wowomall.footprint.domain.FootPrintItem;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 /**
@@ -13,6 +14,7 @@ import java.util.List;
  */
 @Repository
 @Mapper
+
 public interface FootprintMapper {
 
     /**

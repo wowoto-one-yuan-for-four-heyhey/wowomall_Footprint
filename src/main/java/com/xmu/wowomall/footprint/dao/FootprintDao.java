@@ -27,7 +27,9 @@ public class FootprintDao {
      */
     public List<FootPrintItem> listFootPrintsToUser(Integer userId, Integer page, Integer limit)
     {
-        return footprintMapper.findFootPrintsByUserId(userId,page,limit);
+        Integer pageMapper=page-1;
+        System.out.println("---------------------------");
+        return footprintMapper.findFootPrintsByUserId(userId,pageMapper,limit);
 
     }
 

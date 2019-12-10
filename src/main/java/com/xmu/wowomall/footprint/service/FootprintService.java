@@ -19,7 +19,7 @@ public interface FootprintService {
      * @param limit
      * @return 用户足迹列表
      */
-    public Object listFootprintsToUser(Integer userId,Integer page,Integer limit);
+    public Object listFootPrintsToUser(Integer userId,Integer page,Integer limit);
 
     /**
      * 获取用户足迹信息

@@ -39,14 +39,14 @@ public class FootprintController {
         {
            return ResponseUtil.fail();
         }
-         return footprintService.listFootprintsToUser(userId,page,limit);
+         return footprintService.listFootPrintsToUser(userId,page,limit);
     }
 
 
     /**
      *获取足迹信息/list
      */
-    @GetMapping("/listAdmin")
+    @GetMapping("/footprints/listAdmin")
     public Object listAdmin(
                     @RequestParam(defaultValue = "1") Integer page,
                     @RequestParam(defaultValue = "10") Integer limit)
