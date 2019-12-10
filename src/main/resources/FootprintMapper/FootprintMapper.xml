@@ -26,7 +26,7 @@
 
     </select>
 
-    <delete id="deleteFoorPrintById" parameterType="Integer">
+    <delete id="deleteFootPrintById" parameterType="Integer">
         delete
         from footprint_item
         where id=#{footprintId}

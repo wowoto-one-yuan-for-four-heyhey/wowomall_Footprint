@@ -51,6 +51,7 @@ public class FootprintController {
                     @RequestParam(defaultValue = "1") Integer page,
                     @RequestParam(defaultValue = "10") Integer limit)
     {
+        /* 每个user 只会出一个 */
         return footprintService.listFootprintsToAdmin(page,limit);
     }
 
@@ -65,6 +66,7 @@ public class FootprintController {
     @DeleteMapping("/footprints/{id}")
     public Object delete(Integer userId, @PathVariable("id") Integer id)
     {
+        /*假如服务器不存在这个footprintsid 会报500 */
        return footprintService.deleteFootprintOfUser(userId,id);
     }
 
@@ -81,7 +83,7 @@ public class FootprintController {
         {
             return ResponseUtil.fail();
         }
-         FootPrintItem oneItem =footPrintVo.getFootPrintItem();
+         FootPrintItem oneItem = footPrintVo.getFootPrintItem();
          return footprintService.insertFootprint(oneItem);
     }
 }
