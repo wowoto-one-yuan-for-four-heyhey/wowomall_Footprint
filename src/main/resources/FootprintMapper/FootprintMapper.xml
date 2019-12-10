@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xmu.wowoto.wowomall.mapper.OrderMapper">
+<mapper namespace="com.xmu.wowomall.footprint.mapper.FootprintMapper">
 
-    <select id="listFootPrintsToUser" parameterType="java.util.List" resultType="FootPrintItem">
+    <select id="findFootPrintsByUserId" parameterType="java.util.List" resultType="FootPrintItem">
         select id,
                gmt_create,
                birth_time,
@@ -10,7 +10,7 @@
                goods_id
         from footprint_item
         <if test="userId>0">
-           where userId=#{userId}
+           where user_id=#{userId}
         </if>
         limit #{page}, #{limit}
     </select>

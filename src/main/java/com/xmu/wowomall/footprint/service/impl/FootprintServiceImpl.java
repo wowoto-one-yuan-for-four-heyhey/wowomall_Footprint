@@ -36,6 +36,7 @@ public class FootprintServiceImpl implements FootprintService {
 
         List<FootPrintItem> footPrintList=footprintDao.listFootPrintsToUser(userId,page,limit);
         List<FootPrintsItemVo> footPrintVoList=new ArrayList<>(footPrintList.size());
+        System.out.println("size:" + footPrintList.size());
         for(FootPrintItem oneItem:footPrintList)
         {
             Integer goodsId=oneItem.getId();
