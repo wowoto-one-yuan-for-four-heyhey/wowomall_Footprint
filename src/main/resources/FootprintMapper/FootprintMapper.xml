@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xmu.wowoto.wowomall.mapper.OrderMapper">
+
+    <select id="listFootPrintsToUser" parameterType="java.util.List" resultType="FootPrintItem">
+        select id,
+               gmt_create,
+               birth_time,
+               user_id,
+               goods_id
+        from footprint_item
+        <if test="userId>0">
+           where userId=#{userId}
+        </if>
+        limit #{page}, #{limit}
+    </select>
+
+    <select id="findFootPrintById" parameterType="Integer" resultType="FootPrintItem">
+        select id,
+        gmt_create,
+        birth_time,
+        user_id,
+        goods_id
+        from footprint_item
+        where id=#{footprintId}
+
+    </select>
+
+    <delete id="deleteFoorPrintById" parameterType="Integer">
+        delete
+        from footprint_item
+        where id=#{footprintId}
+    </delete>
+
+    <insert id="insertFootPrint" parameterType="FootPrintItem">
+        insert into `footprint_item`(
+            user_id,
+            goods_id,
+            gmt_create,
+            birth_time
+        ) values (
+            #{userId},
+            #{goodsId},
+            #{gmtCreate},
+            #{birthTime}
+        )
+    </insert>
+
+</mapper>
