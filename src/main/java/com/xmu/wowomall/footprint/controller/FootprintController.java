@@ -33,6 +33,8 @@ public class FootprintController {
                        @RequestParam(defaultValue = "10") Integer limit
                        )
     {
+        /* user有多个足迹，不会返回多个，只有返回1个 */
+        /* user有1个足迹，只有返回0个 */
         if(userId==null)
         {
            return ResponseUtil.fail();
