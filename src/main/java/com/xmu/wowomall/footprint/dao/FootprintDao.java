@@ -27,9 +27,9 @@ public class FootprintDao {
      */
     public List<FootPrintItem> listFootPrintsToUser(Integer userId, Integer page, Integer limit)
     {
-        Integer pageMapper=page-1;
+        page=(page-1)*limit;
         System.out.println("---------------------------");
-        return footprintMapper.findFootPrintsByUserId(userId,pageMapper,limit);
+        return footprintMapper.findFootPrintsByUserId(userId,page ,limit);
 
     }
 
@@ -41,6 +41,7 @@ public class FootprintDao {
      */
     public List<FootPrintItem> listFootPrintsToAdmin(Integer page, Integer limit)
     {
+        page=(page-1)*limit;
         return footprintMapper.findFootPrintsByUserId(-1,page,limit);
     }
 

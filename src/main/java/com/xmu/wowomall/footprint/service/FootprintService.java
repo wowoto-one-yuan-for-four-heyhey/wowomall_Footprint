@@ -27,7 +27,7 @@ public interface FootprintService {
      * @param limit
      * @return 用户足迹列表
      */
-    public Object listFootprintsToAdmin(Integer page,Integer limit);
+    public Object listFootPrintsToAdmin(Integer page,Integer limit);
 
     /**
      * 删除用户足迹/delete

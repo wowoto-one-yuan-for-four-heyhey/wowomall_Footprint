@@ -36,8 +36,7 @@ public class FootprintServiceImpl implements FootprintService {
         List<FootPrintItem> footPrintList=footprintDao.listFootPrintsToUser(userId,page,limit);
         List<FootPrintsItemVo> footPrintVoList=new ArrayList<>(footPrintList.size());
         //System.out.println("size:" + footPrintList.size());
-        for(FootPrintItem oneItem:footPrintList)
-        {
+        for(FootPrintItem oneItem:footPrintList) {
             Integer goodsId=oneItem.getId();
             /**
              * 根据goodsId拿到item对应商品信息
@@ -60,12 +59,11 @@ public class FootprintServiceImpl implements FootprintService {
      * @return 用户足迹列表
      */
     @Override
-    public Object listFootprintsToAdmin(Integer page,Integer limit)
+    public Object listFootPrintsToAdmin(Integer page,Integer limit)
     {
         List<FootPrintItem> footPrintList=footprintDao.listFootPrintsToAdmin(page,limit);
         List<FootPrintsItemVo> footPrintVoList=new ArrayList<>(footPrintList.size());
-        for(FootPrintItem oneItem:footPrintList)
-        {
+        for(FootPrintItem oneItem:footPrintList) {
             Integer goodsId=oneItem.getId();
             /**
              * 根据goodsId拿到item对应商品信息
@@ -91,12 +89,10 @@ public class FootprintServiceImpl implements FootprintService {
     public Object deleteFootprintOfUser(Integer userId,Integer footprintId)
     {
         FootPrintItem oneItem=footprintDao.findFootPrintById(footprintId);
-        if(oneItem==null)
-        {
+        if(oneItem==null) {
             return ResponseUtil.fail(ResponseCode.FOOTPRINT_UNKNOWN.getCode(),ResponseCode.FOOTPRINT_UNKNOWN.getMessage());
         }
-        if(!oneItem.getUserId().equals(userId))
-        {
+        if(!oneItem.getUserId().equals(userId)) {
             return ResponseUtil.fail(ResponseCode.FOOTPRINT_INVALID_OPERATION.getCode(),ResponseCode.FOOTPRINT_INVALID_OPERATION.getMessage());
         }
 
