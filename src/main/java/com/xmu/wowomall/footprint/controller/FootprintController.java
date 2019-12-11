@@ -67,8 +67,6 @@ public class FootprintController {
     }
 
 
-
-
     /**
      *内部接口:添加足迹信息/add
      *@param userId 用户ID
