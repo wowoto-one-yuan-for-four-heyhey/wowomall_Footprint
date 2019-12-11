@@ -178,13 +178,13 @@
       <screen x="0" y="0" width="1440" height="831" />
     </state>
     <state x="515" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.831@0.0.1440.831" timestamp="1575988075494" />
-    <state x="177" y="22" key="CommitChangelistDialog2" timestamp="1576048098529">
+    <state x="177" y="22" key="CommitChangelistDialog2" timestamp="1576048120716">
       <screen x="0" y="0" width="1440" height="844" />
     </state>
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.829@0.0.1440.829" timestamp="1575966395633" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.831@0.0.1440.831" timestamp="1575967888881" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.834@0.0.1440.834" timestamp="1575965016721" />
-    <state x="177" y="22" key="CommitChangelistDialog2/0.0.1440.844@0.0.1440.844" timestamp="1576048098529" />
+    <state x="177" y="22" key="CommitChangelistDialog2/0.0.1440.844@0.0.1440.844" timestamp="1576048120716" />
     <state x="177" y="22" key="CommitChangelistDialog2/0.0.1440.846@0.0.1440.846" timestamp="1576047988060" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.848@0.0.1440.848" timestamp="1576047734700" />
     <state width="1268" height="205" key="GridCell.Tab.0.bottom" timestamp="1576047521053">
@@ -259,13 +259,13 @@
       <screen x="0" y="0" width="1440" height="831" />
     </state>
     <state x="265" y="76" key="SettingsEditor/0.0.1440.831@0.0.1440.831" timestamp="1575965701489" />
-    <state x="387" y="165" key="Vcs.Push.Dialog.v2" timestamp="1576048100367">
+    <state x="387" y="165" key="Vcs.Push.Dialog.v2" timestamp="1576048124742">
       <screen x="0" y="0" width="1440" height="844" />
     </state>
     <state x="387" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.829@0.0.1440.829" timestamp="1575966400483" />
     <state x="387" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.831@0.0.1440.831" timestamp="1575967901254" />
     <state x="387" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.834@0.0.1440.834" timestamp="1575964955549" />
-    <state x="387" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.844@0.0.1440.844" timestamp="1576048100367" />
+    <state x="387" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.844@0.0.1440.844" timestamp="1576048124742" />
     <state x="387" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.846@0.0.1440.846" timestamp="1576047989804" />
     <state x="387" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.848@0.0.1440.848" timestamp="1576047736736" />
     <state x="359" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1576047152369">
