@@ -1,5 +1,10 @@
 package com.xmu.wowomall.footprint.util;
 
+/**
+ *
+ * @author wowoto
+ * @date 12/11/2019
+ */
 public enum ResponseCode {
     AUTH_INVALID_ACCOUNT(700, ""),
 

@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.89683634" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footprint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/footprint.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowoto/footprint/FootprintApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/controller/FootprintController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/controller/FootprintController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/修订1.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/JacksonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,10 +198,11 @@
     </state>
     <state x="281" y="91" key="#Project_Structure/0.0.1440.831@0.0.1440.831" timestamp="1575963782953" />
     <state x="281" y="111" key="#Project_Structure/0.23.1440.801@0.23.1440.801" timestamp="1576049477732" />
-    <state x="515" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575988075494">
-      <screen x="0" y="0" width="1440" height="831" />
+    <state x="515" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576073650125">
+      <screen x="0" y="0" width="1440" height="834" />
     </state>
     <state x="515" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.831@0.0.1440.831" timestamp="1575988075494" />
+    <state x="515" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.834@0.0.1440.834" timestamp="1576073650125" />
     <state x="177" y="27" key="CommitChangelistDialog2" timestamp="1576055480550">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
