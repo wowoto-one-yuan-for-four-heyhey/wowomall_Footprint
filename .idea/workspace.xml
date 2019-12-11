@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="" />
+    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <updated>1575963614474</updated>
       <workItem from="1575963619396" duration="3695000" />
       <workItem from="1575987583331" duration="2258000" />
-      <workItem from="1576047152393" duration="553000" />
+      <workItem from="1576047152393" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="修订1">
       <created>1575964953879</created>
@@ -136,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576047492799</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修订1">
+      <created>1576047735007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576047735007</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修订1">
+      <created>1576047905132</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576047905133</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修订1">
+      <created>1576047926476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576047926476</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,13 +178,13 @@
       <screen x="0" y="0" width="1440" height="831" />
     </state>
     <state x="515" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.831@0.0.1440.831" timestamp="1575988075494" />
-    <state x="177" y="22" key="CommitChangelistDialog2" timestamp="1576047905224">
+    <state x="177" y="22" key="CommitChangelistDialog2" timestamp="1576047925625">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.829@0.0.1440.829" timestamp="1575966395633" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.831@0.0.1440.831" timestamp="1575967888881" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.834@0.0.1440.834" timestamp="1575965016721" />
-    <state x="177" y="22" key="CommitChangelistDialog2/0.0.1440.846@0.0.1440.846" timestamp="1576047905224" />
+    <state x="177" y="22" key="CommitChangelistDialog2/0.0.1440.846@0.0.1440.846" timestamp="1576047925625" />
     <state x="379" y="22" key="CommitChangelistDialog2/0.0.1440.848@0.0.1440.848" timestamp="1576047734700" />
     <state width="1268" height="205" key="GridCell.Tab.0.bottom" timestamp="1576047521053">
       <screen x="0" y="0" width="1440" height="848" />
