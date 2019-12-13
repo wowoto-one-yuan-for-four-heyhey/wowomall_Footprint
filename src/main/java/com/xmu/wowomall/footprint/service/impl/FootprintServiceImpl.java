@@ -1,16 +1,23 @@
 package com.xmu.wowomall.footprint.service.impl;
 
+import com.xmu.wowomall.footprint.domain.Goods;
+import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.User;
+import com.xmu.wowomall.footprint.service.GoodsService;
+import com.xmu.wowomall.footprint.service.UserService;
 import com.xmu.wowomall.footprint.util.ResponseCode;
 import com.xmu.wowomall.footprint.util.ResponseUtil;
 import com.xmu.wowomall.footprint.dao.FootprintDao;
-import com.xmu.wowomall.footprint.domain.FootPrintItem;
+import com.xmu.wowomall.footprint.domain.FootprintItem;
 import com.xmu.wowomall.footprint.service.FootprintService;
-import com.xmu.wowomall.footprint.vo.FootPrintsItemVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -22,7 +29,10 @@ public class FootprintServiceImpl implements FootprintService {
 
     @Autowired
     private FootprintDao footprintDao;
-
+    @Autowired
+    private UserService userService;
+    @Autowired
+    private GoodsService goodsService;
     /**
      * 获取用户足迹信息
      * @param userId
@@ -31,51 +41,37 @@ public class FootprintServiceImpl implements FootprintService {
      * @return 用户足迹列表
      */
     @Override
-    public Object listFootPrintsToUser(Integer userId,Integer page,Integer limit)
+    public List<FootprintItem> listFootprintsToUser(Integer userId, Integer page, Integer limit)
     {
-        List<FootPrintItem> footPrintList=footprintDao.listFootPrintsToUser(userId,page,limit);
-        List<FootPrintsItemVo> footPrintVoList=new ArrayList<>(footPrintList.size());
-        //System.out.println("size:" + footPrintList.size());
-        for(FootPrintItem oneItem:footPrintList) {
-            Integer goodsId=oneItem.getId();
-            /**
-             * 根据goodsId拿到item对应商品信息
-             */
-            FootPrintsItemVo oneVo=new FootPrintsItemVo();
-            oneVo.setFootPrintItem(oneItem);;
-            /**
-             * 放入商品信息
-             */
-            footPrintVoList.add(oneVo);
+        List<FootprintItem> footprintItemList=footprintDao.listFootPrints(userId,-1,page,limit);
+        for(FootprintItem oneItem:footprintItemList) {
+            Integer goodsId=oneItem.getGoodsId();
+            GoodsPo goodsPo=goodsService.getGoodsById(goodsId);
+            oneItem.setGoodsPo(goodsPo);
         }
-        return ResponseUtil.ok(footPrintVoList);
+        return footprintItemList;
 
     }
 
     /**
-     * 获取用户足迹信息
+     * 管理员获取用户足迹信息
      * @param page
      * @param limit
      * @return 用户足迹列表
      */
     @Override
-    public Object listFootPrintsToAdmin(Integer page,Integer limit)
+    public List<FootprintItem> listFootprintsToAdmin(User user, GoodsPo goodsPo,Integer page,Integer limit)
     {
-        List<FootPrintItem> footPrintList=footprintDao.listFootPrintsToAdmin(page,limit);
-        List<FootPrintsItemVo> footPrintVoList=new ArrayList<>(footPrintList.size());
-        for(FootPrintItem oneItem:footPrintList) {
-            Integer goodsId=oneItem.getId();
-            /**
-             * 根据goodsId拿到item对应商品信息
-             */
-            FootPrintsItemVo oneVo=new FootPrintsItemVo();
-            oneVo.setFootPrintItem(oneItem);;
-            /**
-             * 放入商品信息
-             */
-            footPrintVoList.add(oneVo);
+
+        Integer userId=user.getId();
+        Integer poId=goodsPo.getId();
+        List<FootprintItem> footprintList=footprintDao.listFootPrints(userId,poId,page,limit);
+        for(FootprintItem oneItem:footprintList) {
+            Integer goodsId=oneItem.getGoodsId();
+            GoodsPo onePo=goodsService.getGoodsById(goodsId);
+            oneItem.setGoodsPo(onePo);
         }
-        return ResponseUtil.ok(footPrintVoList);
+        return footprintList;
     }
 
     /**
@@ -88,7 +84,7 @@ public class FootprintServiceImpl implements FootprintService {
     @Override
     public Object deleteFootprintOfUser(Integer userId,Integer footprintId)
     {
-        FootPrintItem oneItem=footprintDao.findFootPrintById(footprintId);
+        FootprintItem oneItem=footprintDao.findFootPrintById(footprintId);
         if(oneItem==null) {
             return ResponseUtil.fail(ResponseCode.FOOTPRINT_UNKNOWN.getCode(),ResponseCode.FOOTPRINT_UNKNOWN.getMessage());
         }
@@ -102,14 +98,30 @@ public class FootprintServiceImpl implements FootprintService {
 
     /**
      * 新增一条足迹信息
-     * @param oneItem
+     * @param one
      * @return
      */
     @Override
-    public Object insertFootprint(FootPrintItem oneItem)
+    public HashMap<String,Integer> insertFootprint(FootprintItem one)
     {
-        Integer result=footprintDao.insertFootPrint(oneItem);
-        return ResponseUtil.ok(result);
+        FootprintItem oneItem=footprintDao.findFootprintByUserIdAndGoodsId(one.getUserId(),one.getGoodsId());
+        HashMap<String,Integer> result= new HashMap<>();
+        //数据库中没有就插入
+        if(oneItem==null){
+            Integer itemId=footprintDao.insertFootPrint(one);
+            result.put("id",itemId);
+        }
+        //有则更新
+        else{
+            Integer updateResult=footprintDao.updateFootprint(one);
+            if(updateResult.equals(1)){
+                result.put("update",1);
+            }
+            else {
+                result.put("update",-1);
+            }
+        }
+        return result;
     }
 
 }

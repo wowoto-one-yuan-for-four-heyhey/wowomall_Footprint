@@ -1,8 +1,15 @@
 package com.xmu.wowomall.footprint.service;
 
-import com.xmu.wowomall.footprint.domain.FootPrintItem;
+import com.xmu.wowomall.footprint.domain.FootprintItem;
+import com.xmu.wowomall.footprint.domain.Goods;
+import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.User;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.HashMap;
+import java.util.List;
 
 /**
  *
@@ -19,7 +26,7 @@ public interface FootprintService {
      * @param limit
      * @return 用户足迹列表
      */
-    public Object listFootPrintsToUser(Integer userId,Integer page,Integer limit);
+    public List<FootprintItem> listFootprintsToUser(Integer userId, Integer page, Integer limit);
 
     /**
      * 获取用户足迹信息
@@ -27,7 +34,7 @@ public interface FootprintService {
      * @param limit
      * @return 用户足迹列表
      */
-    public Object listFootPrintsToAdmin(Integer page,Integer limit);
+    public List<FootprintItem> listFootprintsToAdmin(User user, GoodsPo goodsPo, Integer page, Integer limit);
 
     /**
      * 删除用户足迹/delete
@@ -40,8 +47,8 @@ public interface FootprintService {
 
     /**
      * 新增一条足迹信息
-     * @param oneItem
+     * @param one
      * @return
      */
-    public Object insertFootprint(FootPrintItem oneItem);
+    HashMap<String,Integer> insertFootprint(FootprintItem one);
 }

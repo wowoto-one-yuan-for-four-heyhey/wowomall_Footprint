@@ -12,6 +12,7 @@
         <if test="userId>0">
            where user_id=#{userId}
         </if>
+
         limit #{page}, #{limit}
     </select>
 
