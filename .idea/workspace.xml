@@ -6,219 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_277.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/AddressPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/BrandPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CartItemPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CollectItemPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CommentPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CouponPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CouponRulePo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/DefaultFreightPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/DefaultPieceFreightPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GoodsCategoryPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GoodsPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GrouponRulePo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderItemPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/ProductPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/ShareRulePo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/TopicPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footprint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/footprint.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Ad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Ad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/AftersalesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/AftersalesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Coupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CouponRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CouponRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultFreight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultFreight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultPieceFreight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultPieceFreight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootPrintItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GrouponRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/OrderItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/PresaleRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/PresaleRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Privilege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/ShareItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/ShareItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/ShareRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/ShareRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/SpecialFreight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/SpecialFreight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/vo/FootPrintsItemVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/FootprintApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/controller/FootprintController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/dao/FootprintDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Ad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/AftersalesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/BeSharedItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/CollectItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Coupon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/CouponRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/DefaultFreight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/DefaultPieceFreight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/FootPrintItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/GoodsCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/GrouponRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/PresaleRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Privilege.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Region.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/ShareItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/ShareRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/SpecialFreight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/Topic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/mapper/FootprintMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/service/FootprintService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/JacksonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/ResponseCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/util/ResponseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmu/wowomall/footprint/vo/FootPrintsItemVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xmu/wowomall/footprint/FootprintApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xmu/wowomall/footprint/controller/ListUsers.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,12 +24,49 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="196">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-700">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -245,19 +76,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="325">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            <state relative-caret-position="213">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/AftersalesService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -268,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="76">
               <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -277,63 +129,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-922">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -356,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" />
       </list>
     </option>
@@ -521,6 +328,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -612,7 +420,7 @@
       <workItem from="1576055354403" duration="81000" />
       <workItem from="1576149242648" duration="537000" />
       <workItem from="1576150467183" duration="14624000" />
-      <workItem from="1576205760299" duration="3262000" />
+      <workItem from="1576205760299" duration="7657000" />
     </task>
     <task id="LOCAL-00001" summary="修订1">
       <created>1575964953879</created>
@@ -684,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576047926476</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修订1">
+      <created>1576209933209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576209933209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18870000" />
+    <option name="totallyTimeSpent" value="23265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -705,7 +520,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09065156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23654391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5056657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -714,7 +529,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.0878187" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -4072,13 +3887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Ad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -4124,16 +3932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -4171,27 +3969,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/AftersalesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        <state relative-caret-position="-700">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

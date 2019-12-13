@@ -1,4 +1,4 @@
-﻿package com.xmu.wowomall.footprint.domain;
+package com.xmu.wowomall.footprint.domain;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -18,8 +18,6 @@ import java.time.LocalDateTime;
 @ToString
 @EqualsAndHashCode
 public class Payment {
-
-    
 
     private Integer id;
     /**
