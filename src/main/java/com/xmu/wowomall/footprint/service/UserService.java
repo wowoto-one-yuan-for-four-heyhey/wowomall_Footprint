@@ -9,13 +9,20 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Service
-@FeignClient("wowoto-users")
+@FeignClient("UserInfo")
 public interface UserService {
     /**
-     * 根据ID得到用户信息
+     * 根据用户名得到用户信息
      * @param username
      * @return
      */
     @GetMapping(value="user/username")
     User getUserByName(@RequestParam String username);
+
+    /**
+     * test
+     * @return
+     */
+    @GetMapping(value="hello")
+    String test();
 }

@@ -63,6 +63,7 @@ public class FootprintController {
             @RequestParam(defaultValue = "")  String goodsName,
             @RequestParam(defaultValue = "1") Integer page,
             @RequestParam(defaultValue = "10") Integer limit){
+        String result=userService.test();
         User user= userService.getUserByName(userName);
         if(user==null){
             return ResponseUtil.fail();
