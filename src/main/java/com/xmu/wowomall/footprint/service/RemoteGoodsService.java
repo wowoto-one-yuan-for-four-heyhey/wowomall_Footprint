@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Service
-@FeignClient("GoodsInfo")
+@FeignClient("goodsInfoService")
 public interface RemoteGoodsService {
 
     /**
