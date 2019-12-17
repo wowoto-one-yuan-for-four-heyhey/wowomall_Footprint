@@ -34,21 +34,14 @@ public interface FootprintService {
      * @param limit
      * @return 用户足迹列表
      */
-    public List<FootprintItem> listFootprintsToAdmin(User user, GoodsPo goodsPo, Integer page, Integer limit);
+    public List<FootprintItem> listFootprintsToAdmin(Integer userId,Integer goodsId, Integer page, Integer limit);
 
-    /**
-     * 删除用户足迹/delete
-     *
-     * @param userId 用户ID
-     * @param footprintId  请求内容， { id: xxx }
-     * @return 删除操作结果
-     */
-    public Object deleteFootprintOfUser(Integer userId,Integer footprintId);
+
 
     /**
      * 新增一条足迹信息
      * @param one
      * @return
      */
-    HashMap<String,Integer> insertFootprint(FootprintItem one);
+    FootprintItem  insertFootprint(FootprintItem one);
 }

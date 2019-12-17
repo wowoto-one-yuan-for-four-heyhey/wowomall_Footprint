@@ -65,7 +65,6 @@ public class ResponseUtil {
         obj.put("errmsg", errmsg);
         return obj;
     }
-
     public static Object badArgument() {
         return fail(401, "参数不对");
     }
@@ -86,9 +85,7 @@ public class ResponseUtil {
         return fail(503, "业务不支持");
     }
 
-    public static Object updatedDateExpired() {
-        return fail(504, "更新数据已经失效");
-    }
+
 
     public static Object updatedDataFailed() {
         return fail(505, "更新数据失败");
@@ -96,6 +93,10 @@ public class ResponseUtil {
 
     public static Object unauthz() {
         return fail(506, "无操作权限");
+    }
+
+    public static Object illegal() {
+        return fail(507, "非法操作");
     }
 }
 

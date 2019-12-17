@@ -11,7 +11,7 @@ spring:
     password: zqhlovekly
     driver-class-name: com.mysql.jdbc.Driver
   application:
-    name: wowoto-footprint
+    name: Footprint
 
 mybatis:
   mapper-locations: classpath:FootprintMapper/*Mapper.xml

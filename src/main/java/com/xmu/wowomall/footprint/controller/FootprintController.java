@@ -1,17 +1,12 @@
 package com.xmu.wowomall.footprint.controller;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
-import com.xmu.wowomall.footprint.domain.Goods;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.Log;
 import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
 import com.xmu.wowomall.footprint.domain.User;
-import com.xmu.wowomall.footprint.service.FootprintService;
-import com.xmu.wowomall.footprint.service.GoodsService;
-import com.xmu.wowomall.footprint.service.UserService;
-import com.xmu.wowomall.footprint.util.ResponseCode;
+import com.xmu.wowomall.footprint.service.*;
 import com.xmu.wowomall.footprint.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -37,6 +32,10 @@ public class FootprintController {
 
     @Autowired
     private HttpServletRequest request;
+    @Autowired
+    private LogService logService;
+
+
 
     /**
      * 获取用户足迹信息
@@ -45,56 +44,48 @@ public class FootprintController {
      * @return 用户足迹列表
      */
     @GetMapping("footprints")
-    public Object listUser(
-                           @RequestParam(defaultValue = "1") Integer page,
+    public Object listUser(@RequestParam(defaultValue = "1") Integer page,
                            @RequestParam(defaultValue = "10") Integer limit) {
         Integer userId =Integer.valueOf(request.getHeader("id"));
+        if(userId==null){
+            return ResponseUtil.unlogin();
+        }
         List<FootprintItem> list = footprintService.listFootprintsToUser(userId,page,limit);
         return ResponseUtil.ok(list);
     }
 
 
     /**
-     *获取足迹信息/list
+     *管理员获取足迹信息/list
      */
     @GetMapping("admin/footprints")
-    public Object listAdmin(
-            @RequestParam(defaultValue = "")  String userName,
-            @RequestParam(defaultValue = "")  String goodsName,
+    public Object listAdmin(HttpServletRequest httpServletRequest,
+            @RequestParam(defaultValue = "-1")  Integer userId,
+            @RequestParam(defaultValue = "-1")  Integer goodsId,
             @RequestParam(defaultValue = "1") Integer page,
             @RequestParam(defaultValue = "10") Integer limit){
-        String result=userService.test();
-        User user= userService.getUserByName(userName);
-        if(user==null){
-            return ResponseUtil.fail();
+        Integer adminId =Integer.valueOf(request.getHeader("id"));
+        if(adminId==null){
+             return ResponseUtil.unlogin();
         }
-        GoodsPo goodsPo= goodsService.getGoodsByName(goodsName);
-        if(goodsPo==null){
-            return ResponseUtil.fail();
+        if(userId>0) {
+            User user = userService.getUserById(userId);
+            if(user==null){
+                return ResponseUtil.badArgumentValue();
+            }
         }
-        if(userName.equals("")){
-            user.setId(-1);
+        if(goodsId>0) {
+            GoodsPo goodsPo= goodsService.getGoodsById(goodsId);
+            if(goodsPo==null){
+                return ResponseUtil.badArgumentValue();
+            }
         }
-        if(goodsName.equals("")){
-            goodsPo.setId(-1);
-        }
-        List<FootprintItem> list = footprintService.listFootprintsToAdmin(user,goodsPo,page,limit);
-        return list;
-    }
+        List<FootprintItem> list = footprintService.listFootprintsToAdmin(userId,goodsId,page,limit);
 
 
-    /**
-     * 删除用户足迹/delete
-     *
-     * @param userId 用户ID
-     * @param id  请求内容， { id: xxx }
-     * @return 删除操作结果
-     */
-    @DeleteMapping("/footprints/{id}")
-    public Object delete(Integer userId, @PathVariable("id") Integer id)
-    {
-        return footprintService.deleteFootprintOfUser(userId,id);
+        return ResponseUtil.ok(list);
     }
+
 
 
     /**
@@ -102,27 +93,13 @@ public class FootprintController {
      *@param footprintItem  足迹信息
      */
     @PostMapping("/footprints")
-    public Object add( FootprintItem footprintItem)
+    public Object addFootprint( FootprintItem footprintItem)
     {
-         Integer userId =Integer.valueOf(request.getHeader("id"));
-         if(userId==null){
-             return ResponseUtil.fail();
+
+         if(footprintItem.getUserId()==null){
+             return ResponseUtil.badArgument();
          }
-        String key;
-        HashMap<String,Integer> result = footprintService.insertFootprint(footprintItem);
-        key="id";
-        if(result.containsKey(key)){
-            footprintItem.setId(result.get("id"));
-        }
-        else {
-            key="update";
-            if(result.containsKey(key)){
-                return ResponseUtil.ok(footprintItem);
-            }
-            else{
-                return ResponseUtil.fail();
-            }
-       }
-        return ResponseUtil.ok(footprintItem);
+        FootprintItem oneItem = footprintService.insertFootprint(footprintItem);
+        return ResponseUtil.ok(oneItem);
     }
 }

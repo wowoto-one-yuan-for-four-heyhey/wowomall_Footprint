@@ -2,7 +2,9 @@ package com.xmu.wowomall.footprint.dao;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
 import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
 import com.xmu.wowomall.footprint.mapper.FootprintMapper;
+import com.xmu.wowomall.footprint.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -18,6 +20,8 @@ public class FootprintDao {
 
     @Autowired
     private FootprintMapper footprintMapper;
+    @Autowired
+    private GoodsService goodsService;
 
     /**
      * 获取用户足迹信息
@@ -30,7 +34,13 @@ public class FootprintDao {
     public List<FootprintItem> listFootPrints(Integer userId, Integer goodsId,Integer page, Integer limit)
     {
         page=(page-1)*limit;
-        return footprintMapper.findFootprints(userId,goodsId,page ,limit);
+        List<FootprintItem> footprintList= footprintMapper.findFootprints(userId,goodsId,page ,limit);
+        for(FootprintItem oneItem:footprintList) {
+            Integer poId=oneItem.getGoodsId();
+            GoodsPo goodsPo= goodsService.getGoodsById(poId);
+            oneItem.setGoodsPo(goodsPo);
+        }
+        return footprintList;
     }
 
 
@@ -42,7 +52,11 @@ public class FootprintDao {
      */
     public FootprintItem findFootPrintById(Integer footprintId)
     {
-        return footprintMapper.findFootprintById(footprintId);
+        FootprintItem oneItem=footprintMapper.findFootprintById(footprintId);
+        Integer poId=oneItem.getGoodsId();
+        GoodsPo goodsPo= goodsService.getGoodsById(poId);
+        oneItem.setGoodsPo(goodsPo);
+        return oneItem;
 
     }
 

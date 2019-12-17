@@ -8,7 +8,7 @@
                birth_time,
                user_id,
                goods_id
-        from footprint_item
+        from oomall_footprint_item
         <choose>
          <when test="userId>0">
            where user_id=#{userId}
@@ -33,19 +33,19 @@
         birth_time,
         user_id,
         goods_id
-        from footprint_item
+        from oomall_footprint_item
         where id=#{footprintId}
 
     </select>
 
     <delete id="deleteFootprintById" parameterType="Integer">
         delete
-        from footprint_item
+        from oomall_footprint_item
         where id=#{footprintId}
     </delete>
 
     <insert id="insertFootprint" parameterType="FootprintItem" useGeneratedKeys="true" keyProperty="id">
-        insert into `footprint_item`(
+        insert into `oomall_footprint_item`(
             user_id,
             goods_id,
             gmt_create,
@@ -64,13 +64,13 @@
         birth_time,
         user_id,
         goods_id
-        from footprint_item
+        from oomall_footprint_item
         where user_id=#{userId} and goods_id=#{goodsId}
 
     </select>
 
     <update id="updateFootprint" parameterType="FootprintItem">
-        update footprint_item
+        update oomall_footprint_item
         <set>
             <if test="birth_time != null">
                 birth_time = #{birth_time},

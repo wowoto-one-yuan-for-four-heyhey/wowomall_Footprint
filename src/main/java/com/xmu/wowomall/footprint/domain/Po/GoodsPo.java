@@ -7,7 +7,6 @@ import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.List;
 
 /**
  * @Author: 数据库与对象模型标准组
@@ -53,7 +52,7 @@ public class GoodsPo {
     /**
      * 上下架状态，0表示下架，1表示上架，2表示最新，3表示最热，4表示最新且最热
      */
-    private Boolean statusCode;
+    private Integer statusCode;
     /**
      * 分享链接
      */
@@ -97,23 +96,4 @@ public class GoodsPo {
     private LocalDateTime gmtCreate;
     private LocalDateTime gmtModified;
 
-    /**
-     * @Author: 数据库与对象模型标准组
-     * @Description:团购规则对象
-     * @Data:Created in 14:50 2019/12/11
-     **/
-    @Getter
-    @Setter
-    @ToString
-    @EqualsAndHashCode(callSuper = true)
-    public static class GrouponRule extends GrouponRulePo {
-        @Getter
-        @Setter
-        private class Strategy{
-            private Integer lowerBound;
-            private Integer upperBound;
-            private BigDecimal discountRate;
-        }
-        private List<Strategy> strategyList;
-    }
 }
