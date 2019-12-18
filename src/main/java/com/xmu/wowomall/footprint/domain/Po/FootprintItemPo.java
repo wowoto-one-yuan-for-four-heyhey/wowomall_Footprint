@@ -23,6 +23,7 @@ public class FootprintItemPo {
     *创建时间
     */
     private LocalDateTime birthTime;
+
     /**
     *用户id
     */
@@ -32,4 +33,27 @@ public class FootprintItemPo {
     */
     private Integer goodsId;
     private LocalDateTime gmtCreate;
+
+    public LocalDateTime getBirthTime() {
+        return birthTime;
+    }
+
+    public void setBirthTime(LocalDateTime birthTime) {
+        this.birthTime = birthTime;
+    }
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Integer getGoodsId() {
+        return goodsId;
+    }
+
+    public void setGoodsId(Integer goodsId) {
+        this.goodsId = goodsId;
+    }
 }

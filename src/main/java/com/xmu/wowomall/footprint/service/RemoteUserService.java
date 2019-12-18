@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @Date: 2019/12/16 20:08
  */
 @Service
-@FeignClient("UserInfo")
+@FeignClient("userInfoService")
 public interface RemoteUserService {
 
     /**

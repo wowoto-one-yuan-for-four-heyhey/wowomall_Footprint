@@ -34,6 +34,8 @@ public class FootprintController {
     private HttpServletRequest request;
     @Autowired
     private LogService logService;
+    @Autowired
+    private RemoteLogService remoteLogService;
 
 
 
@@ -50,6 +52,9 @@ public class FootprintController {
         if(userId==null){
             return ResponseUtil.unlogin();
         }
+        if(userId<=0){
+            return ResponseUtil.badArgumentValue();
+        }
         List<FootprintItem> list = footprintService.listFootprintsToUser(userId,page,limit);
         return ResponseUtil.ok(list);
     }
@@ -63,7 +68,8 @@ public class FootprintController {
             @RequestParam(defaultValue = "-1")  Integer userId,
             @RequestParam(defaultValue = "-1")  Integer goodsId,
             @RequestParam(defaultValue = "1") Integer page,
-            @RequestParam(defaultValue = "10") Integer limit){
+            @RequestParam(defaultValue = "10") Integer limit)
+    {
         Integer adminId =Integer.valueOf(request.getHeader("id"));
         if(adminId==null){
              return ResponseUtil.unlogin();
@@ -82,7 +88,12 @@ public class FootprintController {
         }
         List<FootprintItem> list = footprintService.listFootprintsToAdmin(userId,goodsId,page,limit);
 
-
+        Log log=new Log();
+        log.setType(0);
+        log.setStatusCode(1);
+        log.setActions("查询足迹");
+        log.setActionId(1);
+        remoteLogService.addLog(log);
         return ResponseUtil.ok(list);
     }
 
@@ -93,11 +104,16 @@ public class FootprintController {
      *@param footprintItem  足迹信息
      */
     @PostMapping("/footprints")
-    public Object addFootprint( FootprintItem footprintItem)
+    public Object addFootprint(@RequestBody FootprintItem footprintItem)
     {
-
+         if(footprintItem==null){
+             return ResponseUtil.badArgumentValue();
+         }
          if(footprintItem.getUserId()==null){
-             return ResponseUtil.badArgument();
+             return ResponseUtil.badArgumentValue();
+         }
+         if(footprintItem.getGoodsId()==null){
+             return ResponseUtil.badArgumentValue();
          }
         FootprintItem oneItem = footprintService.insertFootprint(footprintItem);
         return ResponseUtil.ok(oneItem);

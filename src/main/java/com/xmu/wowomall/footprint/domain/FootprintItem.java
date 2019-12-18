@@ -17,6 +17,13 @@ import lombok.ToString;
 @ToString
 @EqualsAndHashCode(callSuper = true)
 public class FootprintItem extends FootprintItemPo {
+    public GoodsPo getGoodsPo() {
+        return goodsPo;
+    }
+
+    public void setGoodsPo(GoodsPo goodsPo) {
+        this.goodsPo = goodsPo;
+    }
 
     private GoodsPo goodsPo;
 }

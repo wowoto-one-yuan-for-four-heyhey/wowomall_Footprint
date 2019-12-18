@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.RequestBody;
  */
 @Service
 public interface LogService {
-    Log addLog(@RequestBody Log log);
+
 }

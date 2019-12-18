@@ -22,8 +22,6 @@
              </if>
          </otherwise>
         </choose>
-
-        order By birth_time desc
         limit #{page}, #{limit}
     </select>
 
@@ -48,12 +46,10 @@
         insert into `oomall_footprint_item`(
             user_id,
             goods_id,
-            gmt_create,
             birth_time
         ) values (
             #{userId},
             #{goodsId},
-            #{gmtCreate},
             #{birthTime}
         )
     </insert>

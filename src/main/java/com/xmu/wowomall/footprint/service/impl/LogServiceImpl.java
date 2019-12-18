@@ -18,9 +18,5 @@ public class LogServiceImpl implements LogService {
     @Autowired
     RemoteLogService remoteLogService;
 
-    @Override
-    public Log addLog(Log log) {
-        String json = remoteLogService.addLog(log);
-        return JacksonUtil.parseObject(json, "data", Log.class);
-    }
+
 }

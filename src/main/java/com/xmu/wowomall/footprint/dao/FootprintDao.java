@@ -88,7 +88,8 @@ public class FootprintDao {
      */
     public FootprintItem findFootprintByUserIdAndGoodsId(Integer userId,Integer goodsId)
     {
-        return footprintMapper.findFootprintByUserIdAndGoodsId(userId,goodsId);
+        FootprintItem item=footprintMapper.findFootprintByUserIdAndGoodsId(userId,goodsId);
+        return item;
     }
 
     /**
