@@ -20,6 +20,7 @@ public class FootprintDao {
 
     @Autowired
     private FootprintMapper footprintMapper;
+
     @Autowired
     private GoodsService goodsService;
 
@@ -75,7 +76,7 @@ public class FootprintDao {
      * @param footprintItem
      * @return
      */
-    public Integer insertFootPrint(FootprintItem footprintItem)
+    public Integer insertFootprint(FootprintItem footprintItem)
     {
         return footprintMapper.insertFootprint(footprintItem);
     }
@@ -86,10 +87,9 @@ public class FootprintDao {
      * @param goodsId
      * @return
      */
-    public FootprintItem findFootprintByUserIdAndGoodsId(Integer userId,Integer goodsId)
+    public FootprintItem findFootprintByUserIdAndGoodsId(Integer userId, Integer goodsId)
     {
-        FootprintItem item=footprintMapper.findFootprintByUserIdAndGoodsId(userId,goodsId);
-        return item;
+        return footprintMapper.findFootprintByUserIdAndGoodsId(userId, goodsId);
     }
 
     /**

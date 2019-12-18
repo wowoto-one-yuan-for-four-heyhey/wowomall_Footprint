@@ -1,20 +1,14 @@
 package com.xmu.wowomall.footprint.service.impl;
 
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
-import com.xmu.wowomall.footprint.domain.User;
 import com.xmu.wowomall.footprint.service.RemoteGoodsService;
 import com.xmu.wowomall.footprint.service.UserService;
-import com.xmu.wowomall.footprint.util.ResponseCode;
-import com.xmu.wowomall.footprint.util.ResponseUtil;
 import com.xmu.wowomall.footprint.dao.FootprintDao;
 import com.xmu.wowomall.footprint.domain.FootprintItem;
 import com.xmu.wowomall.footprint.service.FootprintService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * fringe
@@ -91,10 +85,10 @@ public class FootprintServiceImpl implements FootprintService {
     @Override
     public FootprintItem  insertFootprint(FootprintItem one)
     {
-        FootprintItem oneItem=footprintDao.findFootprintByUserIdAndGoodsId(one.getUserId(),one.getGoodsId());
+        FootprintItem oneItem = footprintDao.findFootprintByUserIdAndGoodsId(one.getUserId(),one.getGoodsId());
         //数据库中没有就插入
-        if(oneItem==null){
-            footprintDao.insertFootPrint(one);
+        if(oneItem == null){
+            footprintDao.insertFootprint(one);
         }
         //有则更新
         else{

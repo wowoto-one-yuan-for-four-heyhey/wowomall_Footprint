@@ -15,7 +15,6 @@ import java.util.List;
  */
 @Repository
 @Mapper
-
 public interface FootprintMapper {
 
     /**
