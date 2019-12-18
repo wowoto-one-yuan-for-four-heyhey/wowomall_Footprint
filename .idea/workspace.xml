@@ -5,23 +5,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/LogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-    </list>
+    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3132">
+            <state relative-caret-position="123">
               <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="231">
+              <caret line="96" column="27" lean-forward="true" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -393,15 +377,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\service" />
+      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain" />
       <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain\Po" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xmu.wowomall.footprint.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\service" />
-      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain\Po" />
     </key>
   </component>
@@ -486,7 +470,7 @@
       <workItem from="1576634404209" duration="2164000" />
       <workItem from="1576658591934" duration="1508000" />
       <workItem from="1576668584332" duration="7832000" />
-      <workItem from="1576677104356" duration="317000" />
+      <workItem from="1576677104356" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="修订1">
       <created>1575964953879</created>
@@ -586,17 +570,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576588647006</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修订1">
+      <created>1576677538762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576677538762</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85696000" />
+    <option name="totallyTimeSpent" value="86076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -607,8 +597,8 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40509915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4362606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1151,16 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/org/springframework/dao/support/PersistenceExceptionTranslationInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -1237,10 +1217,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="231">
+          <caret line="96" column="27" lean-forward="true" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
