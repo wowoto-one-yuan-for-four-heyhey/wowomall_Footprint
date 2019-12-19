@@ -71,7 +71,7 @@ public class FootprintController {
             @RequestParam(defaultValue = "10") Integer limit)
     {
         Integer adminId =Integer.valueOf(request.getHeader("id"));
-        if(adminId==null){
+        if(adminId==null || adminId <= 0){
              return ResponseUtil.unlogin();
         }
         if(userId>0) {

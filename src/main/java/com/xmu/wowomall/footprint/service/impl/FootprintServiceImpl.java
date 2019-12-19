@@ -92,7 +92,8 @@ public class FootprintServiceImpl implements FootprintService {
         }
         //有则更新
         else{
-            footprintDao.updateFootprint(one);
+            oneItem.setBirthTime(one.getBirthTime());
+            footprintDao.updateFootprint(oneItem);
         }
         return one;
     }

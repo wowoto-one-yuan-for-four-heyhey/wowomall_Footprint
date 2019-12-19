@@ -46,11 +46,13 @@
         insert into `oomall_footprint_item`(
             user_id,
             goods_id,
-            birth_time
+            birth_time,
+            gmt_create
         ) values (
             #{userId},
             #{goodsId},
-            #{birthTime}
+            #{birthTime},
+            now()
         )
     </insert>
 
@@ -61,18 +63,18 @@
         user_id,
         goods_id
         from oomall_footprint_item
-        where user_id=#{userId} and goods_id=#{goodsId}
+        where user_id = #{userId} and goods_id = #{goodsId}
 
     </select>
 
     <update id="updateFootprint" parameterType="FootprintItem">
         update oomall_footprint_item
         <set>
-            <if test="birth_time != null">
-                birth_time = #{birth_time},
+            <if test="birthTime != null">
+                birth_time = #{birthTime},
             </if>
-            <if test="gmt_create != null">
-                gmt_create = #{gmt_create},
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate},
             </if>
             <if test="userId != null">
                 user_id = #{userId},
