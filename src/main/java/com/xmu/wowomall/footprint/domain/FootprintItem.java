@@ -1,7 +1,7 @@
 package com.xmu.wowomall.footprint.domain;
 
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.GoodsPo;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,13 +17,6 @@ import lombok.ToString;
 @ToString
 @EqualsAndHashCode(callSuper = true)
 public class FootprintItem extends FootprintItemPo {
-    public GoodsPo getGoodsPo() {
-        return goodsPo;
-    }
-
-    public void setGoodsPo(GoodsPo goodsPo) {
-        this.goodsPo = goodsPo;
-    }
 
     private GoodsPo goodsPo;
 }

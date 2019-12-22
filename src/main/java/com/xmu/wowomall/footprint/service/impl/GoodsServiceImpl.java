@@ -1,6 +1,6 @@
 package com.xmu.wowomall.footprint.service.impl;
 
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.po.GoodsPo;
 import com.xmu.wowomall.footprint.service.GoodsService;
 import com.xmu.wowomall.footprint.service.RemoteGoodsService;
 import com.xmu.wowomall.footprint.util.JacksonUtil;
@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 
+/**
+ * @author lenovo
+ */
 @Service
 public class GoodsServiceImpl implements GoodsService {
 

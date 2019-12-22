@@ -2,8 +2,8 @@ package com.xmu.wowomall.footprint.service;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
 import com.xmu.wowomall.footprint.domain.Goods;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.GoodsPo;
 import com.xmu.wowomall.footprint.domain.User;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -30,7 +30,7 @@ public interface FootprintService {
 
 
     /**
-     *
+     *ffff
      * @param userId
      * @param goodsId
      * @param page

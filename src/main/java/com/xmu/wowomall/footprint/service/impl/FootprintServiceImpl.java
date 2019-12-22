@@ -1,7 +1,7 @@
 package com.xmu.wowomall.footprint.service.impl;
 
 import com.alibaba.fastjson.JSONArray;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
 import com.xmu.wowomall.footprint.service.RemoteGoodsService;
 import com.xmu.wowomall.footprint.service.UserService;
 import com.xmu.wowomall.footprint.dao.FootprintDao;

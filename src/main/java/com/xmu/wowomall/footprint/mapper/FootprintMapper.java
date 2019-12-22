@@ -1,7 +1,7 @@
 package com.xmu.wowomall.footprint.mapper;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

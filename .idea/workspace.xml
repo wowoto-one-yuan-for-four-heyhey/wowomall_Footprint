@@ -5,36 +5,77 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_client_3_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_common_3_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_remoting_3_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocketmq_spring_boot_rocketmq_spring_boot_starter_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/RunTimeUtil.java" afterDir="false" />
+    <list default="true" id="553384c3-ad06-4a5f-8271-e8374eb0f1ab" name="Default Changelist" comment="修订1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/AddressPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/BrandPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CartItemPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CollectItemPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CommentPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CouponPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CouponRulePo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/DefaultFreightPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/DefaultPieceFreightPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/FootprintItemPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/GoodsCategoryPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/GoodsPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/GrouponRulePo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/OrderItemPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/OrderPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/ShareRulePo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/TopicPo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footprint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/footprint.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CouponRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultFreight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultPieceFreight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GrouponRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/AddressPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/BrandPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CartItemPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CollectItemPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CommentPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CouponPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/CouponRulePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/DefaultFreightPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/DefaultPieceFreightPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GoodsCategoryPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GoodsPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GrouponRulePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderItemPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/ProductPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/ProductPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/ShareRulePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/TopicPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/PresaleRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/PresaleRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/ShareRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Topic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/JacksonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/controller/ListUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/controller/ListUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FootprintMapper/FootprintMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,83 +108,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2813">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding>
-                <element signature="e#1683#1684#0" expanded="true" />
-                <element signature="e#1723#1724#0" expanded="true" />
-                <element signature="e#1770#1771#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1926#1927#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-                <element signature="e#2099#2100#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#2258#2259#0" expanded="true" />
-                <element signature="e#2298#2299#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/RunTimeUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -151,11 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2262">
-              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -163,8 +158,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="145">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,20 +179,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-489">
-              <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-609">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/FootprintItemPo.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,44 +223,50 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Ad.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Payment.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/FootprintApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/CartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GrouponRulePo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderPo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/GrouponRulePo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/TimingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/LogServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/LogServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/LogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintConsumer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xmu/wowomall/footprint/controller/ListUsers.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/FootprintMapper/FootprintMapper.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/JacksonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteLogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/FootprintApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/RunTimeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/CartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/FootprintItemPo.java" />
       </list>
     </option>
   </component>
@@ -302,6 +317,97 @@
               <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
               <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="footprint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wowomall_Footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="footprint" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -323,7 +429,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -337,15 +443,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint" />
+      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\service" />
+      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain" />
       <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain\Po" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xmu.wowomall.footprint.domain.po" />
       <recent name="com.xmu.wowomall.footprint.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\service" />
-      <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OOAD\wowomall_Footprint\src\main\java\com\xmu\wowomall\footprint\domain\Po" />
     </key>
   </component>
@@ -434,7 +542,7 @@
       <workItem from="1576747661369" duration="12450000" />
       <workItem from="1576800036704" duration="33902000" />
       <workItem from="1576928508103" duration="684000" />
-      <workItem from="1577031566156" duration="2363000" />
+      <workItem from="1577031566156" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="修订1">
       <created>1575964953879</created>
@@ -548,14 +656,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576677935276</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修订1">
+      <created>1577037608311</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577037608311</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140076000" />
+    <option name="totallyTimeSpent" value="141301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -566,10 +682,10 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.26203966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.67525035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.674221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22237961" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,7 +694,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.15439093" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2320917" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.23087819" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.14589235" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
@@ -794,142 +910,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CouponRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/DefaultPieceFreight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/org/springframework/dao/support/PersistenceExceptionTranslationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2523">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="512" column="27" selection-start-line="512" selection-start-column="27" selection-end-line="512" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="510" selection-start-line="510" selection-end-line="510" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/FootprintItemPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/target/SingletonTargetSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#789#790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/adapter/GlobalAdvisorAdapterRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/support/annotation/AnnotationMatchingPointcut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#2204#2205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/annotation/PackagesAnnotationFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/annotation/AnnotationFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#1427#1428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/annotation/AnnotatedElementUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/support/annotation/AnnotationClassFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/org/springframework/dao/annotation/PersistenceExceptionTranslationAdvisor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -987,23 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -1032,35 +995,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderPo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/OrderPo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Po/OrderItemPo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/OrderItemPo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
@@ -1088,36 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3074">
-          <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/LogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1135,47 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2262">
-          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/util/ResponseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1196,16 +1071,6 @@
           <folding>
             <element signature="e#627#628#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1241,6 +1106,214 @@
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/DefaultFreightPo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Topic.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/GoodsCategoryPo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/BeSharedItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/ProductPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/CartItemPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/FootprintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/GoodsPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/RemoteGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/GoodsCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/CollectItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/FootprintItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/mapper/FootprintMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/controller/FootprintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2813">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/dao/FootprintDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/service/impl/FootprintServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmu/wowomall/footprint/domain/po/FootprintItemPo.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

@@ -1,8 +1,8 @@
 package com.xmu.wowomall.footprint.dao;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.GoodsPo;
 import com.xmu.wowomall.footprint.mapper.FootprintMapper;
 import com.xmu.wowomall.footprint.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;

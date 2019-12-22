@@ -1,7 +1,6 @@
 package com.xmu.wowomall.footprint.domain;
 
-import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
-import com.xmu.wowomall.footprint.domain.Po.ProductPo;
+import com.xmu.wowomall.footprint.domain.po.ProductPo;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,5 +16,13 @@ import lombok.ToString;
 @ToString
 @EqualsAndHashCode(callSuper = true)
 public class Product extends ProductPo {
-    private GoodsPo goodsPo;
+    private Goods goods;
+
+    public Goods getGoods() {
+        return goods;
+    }
+
+    public void setGoods(Goods goods) {
+        this.goods = goods;
+    }
 }

@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.xmu.wowomall.footprint.dao.FootprintDao;
 import com.xmu.wowomall.footprint.domain.FootprintItem;
-import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
+import com.xmu.wowomall.footprint.domain.po.FootprintItemPo;
 import com.xmu.wowomall.footprint.mapper.FootprintMapper;
 import com.xmu.wowomall.footprint.util.JacksonUtil;
 import com.xmu.wowomall.footprint.util.RunTimeUtil;
