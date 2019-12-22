@@ -51,7 +51,7 @@
         ) values (
             #{userId},
             #{goodsId},
-            #{birthTime},
+            now(),
             now()
         )
     </insert>
@@ -71,10 +71,10 @@
         update oomall_footprint_item
         <set>
             <if test="birthTime != null">
-                birth_time = #{birthTime},
+                birth_time = now(),
             </if>
             <if test="gmtCreate != null">
-                gmt_create = #{gmtCreate},
+                gmt_create = now(),
             </if>
             <if test="userId != null">
                 user_id = #{userId},

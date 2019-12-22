@@ -36,17 +36,21 @@ import java.util.Map;
  * 具体见litemall-wx-api模块的WxResponseCode。
  * </ul>
  */
+
+/**
+ * @author fringe
+ */
 public class ResponseUtil {
     public static Object ok() {
         Map<String, Object> obj = new HashMap<String, Object>(7);
-        obj.put("errno", 0);
+        obj.put("errno", 200);
         obj.put("errmsg", "成功");
         return obj;
     }
 
     public static Object ok(Object data) {
         Map<String, Object> obj = new HashMap<String, Object>(7);
-        obj.put("errno", 0);
+        obj.put("errno", 200);
         obj.put("errmsg", "成功");
         obj.put("data", data);
         return obj;
@@ -70,11 +74,11 @@ public class ResponseUtil {
     }
 
     public static Object badArgumentValue() {
-        return fail(402, "参数值不对");
+        return fail(580, "参数值不对");
     }
 
     public static Object unlogin() {
-        return fail(501, "请登录");
+        return fail(660, "请登录");
     }
 
     public static Object serious() {

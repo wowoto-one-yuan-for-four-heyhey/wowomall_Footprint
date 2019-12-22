@@ -4,8 +4,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import io.micrometer.core.instrument.util.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -20,6 +22,7 @@ import java.util.Map;
 
 public class JacksonUtil {
     private static final Log logger = LogFactory.getLog(JacksonUtil.class);
+    private static ObjectMapper objectMapper = new ObjectMapper();
 
     public static String parseString(String body, String field) {
         ObjectMapper mapper = new ObjectMapper().registerModule(new Jdk8Module())
@@ -155,6 +158,21 @@ public class JacksonUtil {
         return null;
     }
 
+
+
+    public static <T> T parseFootprintItem(String body,  Class<T> clazz) {
+        ObjectMapper mapper = new ObjectMapper().registerModule(new Jdk8Module())
+                .registerModule(new JavaTimeModule());;
+        JsonNode node;
+        try {
+            node = mapper.readTree(body);
+            return mapper.treeToValue(node, clazz);
+        } catch (IOException e) {
+            logger.error(e.getMessage(), e);
+        }
+        return null;
+    }
+
     public static Object toNode(String json) {
         if (json == null) {
             return null;
@@ -192,5 +210,18 @@ public class JacksonUtil {
             e.printStackTrace();
         }
         return null;
+    }
+    public static <T> T string2Obj(String str, Class<T> clazz) {
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        objectMapper.registerModule(new JavaTimeModule());
+        if (StringUtils.isEmpty(str) || clazz == null) {
+            return null;
+        }
+        try {
+            return clazz.equals(String.class) ? (T) str : objectMapper.readValue(str, clazz);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

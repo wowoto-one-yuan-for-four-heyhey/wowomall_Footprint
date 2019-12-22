@@ -6,6 +6,9 @@ package com.xmu.wowomall.footprint.util;
  * @date 12/11/2019
  */
 public enum ResponseCode {
+    /**
+     * 打
+     */
     ADD_FAILD(741,"足迹添加失败")
 
     ;

@@ -12,7 +12,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableScheduling
-
+/**
+ * @author fringe
+ */
 public class FootprintApplication {
 
     public static void main(String[] args) {

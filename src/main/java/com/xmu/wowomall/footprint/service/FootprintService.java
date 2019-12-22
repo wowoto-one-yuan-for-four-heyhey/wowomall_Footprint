@@ -28,11 +28,14 @@ public interface FootprintService {
      */
     public List<FootprintItem> listFootprintsToUser(Integer userId, Integer page, Integer limit);
 
+
     /**
-     * 获取用户足迹信息
+     *
+     * @param userId
+     * @param goodsId
      * @param page
      * @param limit
-     * @return 用户足迹列表
+     * @return
      */
     public List<FootprintItem> listFootprintsToAdmin(Integer userId,Integer goodsId, Integer page, Integer limit);
 
@@ -40,8 +43,8 @@ public interface FootprintService {
 
     /**
      * 新增一条足迹信息
-     * @param one
+     * @param oneItem
      * @return
      */
-    FootprintItem  insertFootprint(FootprintItem one);
+    Integer  insertFootprint(FootprintItemPo oneItem);
 }

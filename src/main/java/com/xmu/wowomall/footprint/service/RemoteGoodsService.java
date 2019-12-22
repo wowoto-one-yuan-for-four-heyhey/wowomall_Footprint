@@ -16,7 +16,7 @@ public interface RemoteGoodsService {
      * @param id
      * @return
      */
-    @GetMapping(value="goods/{id}")
+    @GetMapping(value="inner/goods/{id}")
     String getGoodsById(@PathVariable("id") Integer id);
 
 

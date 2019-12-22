@@ -2,6 +2,7 @@ package com.xmu.wowomall.footprint.controller;
 
 import com.xmu.wowomall.footprint.domain.FootprintItem;
 import com.xmu.wowomall.footprint.domain.Log;
+import com.xmu.wowomall.footprint.domain.Po.FootprintItemPo;
 import com.xmu.wowomall.footprint.domain.Po.GoodsPo;
 import com.xmu.wowomall.footprint.domain.User;
 import com.xmu.wowomall.footprint.service.*;
@@ -46,7 +47,7 @@ public class FootprintController {
      * @return 用户足迹列表
      */
     @GetMapping("footprints")
-    public Object listUser(@RequestParam(defaultValue = "1") Integer page,
+    public Object listFootprintsToUser(@RequestParam(defaultValue = "1") Integer page,
                            @RequestParam(defaultValue = "10") Integer limit) {
         Integer userId =Integer.valueOf(request.getHeader("id"));
         if(userId==null){
@@ -64,7 +65,7 @@ public class FootprintController {
      *管理员获取足迹信息/list
      */
     @GetMapping("admin/footprints")
-    public Object listAdmin(HttpServletRequest httpServletRequest,
+    public Object listFootprintsToAdmin(
             @RequestParam(defaultValue = "-1")  Integer userId,
             @RequestParam(defaultValue = "-1")  Integer goodsId,
             @RequestParam(defaultValue = "1") Integer page,
@@ -101,21 +102,24 @@ public class FootprintController {
 
     /**
      *内部接口:添加足迹信息
-     *@param footprintItem  足迹信息
+     *@param footprintItemPo  足迹信息
      */
     @PostMapping("/footprints")
-    public Object addFootprint(@RequestBody FootprintItem footprintItem)
+    public Object addFootprint(@RequestBody FootprintItemPo footprintItemPo)
     {
-         if(footprintItem==null){
+          if(footprintItemPo==null){
              return ResponseUtil.badArgumentValue();
          }
-         if(footprintItem.getUserId()==null){
+         if(footprintItemPo.getUserId()==null){
              return ResponseUtil.badArgumentValue();
          }
-         if(footprintItem.getGoodsId()==null){
+         if(footprintItemPo.getGoodsId()==null){
              return ResponseUtil.badArgumentValue();
          }
-        FootprintItem oneItem = footprintService.insertFootprint(footprintItem);
-        return ResponseUtil.ok(oneItem);
+        Integer result= footprintService.insertFootprint(footprintItemPo);
+         if(result==null){
+             return ResponseUtil.fail();
+         }
+        return ResponseUtil.ok(result);
     }
 }

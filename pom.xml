@@ -85,6 +85,20 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>3.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.rocketmq.spring.boot</groupId>
+            <artifactId>rocketmq-spring-boot-starter</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+
+
     </dependencies>
 
 

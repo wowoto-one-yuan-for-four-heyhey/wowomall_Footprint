@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 @FeignClient("logService")
 public interface RemoteLogService {
 
+    /**
+     * 添加日志
+     * @param log
+     * @return
+     */
     @PostMapping("/log")
     String addLog(@RequestBody Log log);
 

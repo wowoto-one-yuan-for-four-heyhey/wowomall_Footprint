@@ -24,3 +24,12 @@ eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
       defaultZone: http://148.70.28.112:8761/eureka
+
+rocketmq:
+  # 生产者配置
+  producer:
+    groupName: FootPrintProducer
+    namesrvAddr: 120.27.244.59:9876
+  consumer:
+    groupName: FootPrintConsumer
+    namesrvAddr: 120.27.244.59:9876
